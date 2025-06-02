@@ -1,0 +1,16 @@
+📌 Project Overview
+Face detection is one of the fundamental applications of computer vision. In this project, we use OpenCV's CascadeClassifier and a pre-trained model (haarcascade_frontalface_alt.xml) to detect faces from a live webcam stream. This can be extended to face recognition, attendance systems, surveillance bots, and more.
+
+🔧 Technologies Used
+Tool/Library	              Purpose
+Python 3.x	         Core programming language.
+OpenCV	             Real-time computer vision library used for video capturing and face detection.
+Haar Cascade XML	   Pre-trained model used to detect facial features.
+
+📂 Project Structure
+face_detection_project
+│
+├── haarcascade_frontalface_alt.xml   # Pre-trained Haar Cascade model
+├── face_detection.py                 # Main script
+├── README.md                         # Project documentation
+└── requirements.txt                  # Python dependencies (if used)
